@@ -66,6 +66,9 @@
   --dark-bg: rgba(15, 15, 15, 0.95);
   --dark-bg-soft: rgba(15, 15, 15, 0.303);
   --spacing: 150px;
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(1, 0, 13)), color-stop(50%, rgb(0, 0, 1)), to(rgb(1, 0, 13)));
+  background: linear-gradient(90deg, rgb(1, 0, 13) 0%, rgb(0, 0, 1) 50%, rgb(1, 0, 13) 100%);
 }
 @media screen and (max-width: 995px) {
   :root {
@@ -77,9 +80,6 @@
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
-  background: black;
-  background: -webkit-gradient(linear, left top, right top, from(rgb(1, 0, 13)), color-stop(50%, rgb(0, 0, 1)), to(rgb(1, 0, 13)));
-  background: linear-gradient(90deg, rgb(1, 0, 13) 0%, rgb(0, 0, 1) 50%, rgb(1, 0, 13) 100%);
 }
 
 body {
