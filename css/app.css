@@ -66,17 +66,20 @@
   --dark-bg: rgba(15, 15, 15, 0.95);
   --dark-bg-soft: rgba(15, 15, 15, 0.303);
   --spacing: 150px;
+}
+@media screen and (max-width: 995px) {
+  :root {
+    --spacing: 60px;
+  }
+}
+
+#main-container {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
   background: black;
   background: -webkit-gradient(linear, left top, right top, from(rgb(1, 0, 13)), color-stop(50%, rgb(0, 0, 1)), to(rgb(1, 0, 13)));
   background: linear-gradient(90deg, rgb(1, 0, 13) 0%, rgb(0, 0, 1) 50%, rgb(1, 0, 13) 100%);
-}
-@media screen and (max-width: 995px) {
-  :root {
-    --spacing: 60px;
-  }
 }
 
 body {
@@ -140,6 +143,7 @@ header {
   font-size: 1.25rem;
   line-height: 1.5;
   margin-bottom: var(--spacing);
+  text-align: center;
 }
 @media screen and (max-width: 995px) {
   .section-img {
